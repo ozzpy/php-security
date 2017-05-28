@@ -1,10 +1,9 @@
 
-<p align="center"><img width="300" src="https://secthemall.com/img/sta_logo_white.png"><br>
+<p align="center"><img width="300" src="https://secthemall.com/img/sta_logo_white.png"><br><br>
 
 <img src="https://img.shields.io/badge/style-GPL-blue.svg?style=flat&label=license">
-<img src="https://img.shields.io/badge/style-5.6-green.svg?style=flat&label=PHP">
-<img src="https://img.shields.io/badge/style-7.0-green.svg?style=flat&label=PHP">
-<img src="https://img.shields.io/badge/style-7.1-green.svg?style=flat&label=PHP">
+<img src="https://img.shields.io/badge/style-5.x-green.svg?style=flat&label=PHP">
+<img src="https://img.shields.io/badge/style-7.x-green.svg?style=flat&label=PHP">
 </p>
 
 ## About PHP-Security
