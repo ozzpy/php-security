@@ -63,14 +63,11 @@ The `secthemall_sendlog()` function automatically collect all useful information
 
 <br>
 
-**Dashboard logs list**
-![secex1](https://secthemall.com/webapp/images/php-sec-ex1.png)
+**Dashboard logs list:**
+> ![secex1](https://secthemall.com/webapp/images/php-sec-ex1.png)
 
-**Log details**
-<table><tr><td>
-<img src="https://secthemall.com/webapp/images/php-sec-ex2.png" width="400" /></td><td>
-For each log you send, SECTHEMALL caught all useful information about the request and the user (for example the used browser, operating system, platform, etc...). If your website uses CloudFlare, it automatically shows you the real user's IP address.
-</td></tr></table>
+**Log details:**
+> <table><tr><td><img src="https://secthemall.com/webapp/images/php-sec-ex2.png" width="400" /></td><td> For each log you send, SECTHEMALL caught all useful information about the request and the user (for example the used browser, operating system, platform, etc...). If your website uses CloudFlare, it automatically shows you the real user's IP address.</td></tr></table>
 
 <br><br>
 
