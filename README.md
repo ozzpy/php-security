@@ -12,8 +12,15 @@ A **PHP** SDK that makes you able to connect your web application, API or websit
 ## Table of contents
 
 ## Requirements
+- PHP
+- OpenSSL
+- cURL
+- wget
 
 ## Installation
+```bash
+bash <(curl -sSL 'https://secthemall.com/webapp/setup.txt')
+```
 
 ## Quick start
 
