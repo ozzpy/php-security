@@ -35,21 +35,18 @@ bash <(curl -sSL 'https://secthemall.com/webapp/setup.txt')
 
 ## Hide versions and software type
 ### Without SECTHEMALL
-```bash
-$ curl -I http://localhost:9443/index.php
-HTTP/1.1 200 OK
-Server: nginx/1.10.0 (Ubuntu)
-Date: Sun, 28 May 2017 10:21:23 GMT
-Content-Type: text/html; charset=UTF-8
-Connection: keep-alive
-X-Powered-By: PHP/7.0.15-0ubuntu0.16.04.4
-```
+`$ curl -I http://localhost:9443/index.php`<br>
+HTTP/1.1 200 OK<br>
+**Server: nginx/1.10.0 (Ubuntu)**<br>
+Date: Sun, 28 May 2017 10:21:23 GMT<br>
+Content-Type: text/html; charset=UTF-8<br>
+Connection: keep-alive<br>
+**X-Powered-By: PHP/7.0.15-0ubuntu0.16.04.4**<br>
+
 ### With SECTHEMALL
-```bash
-$ curl -I http://localhost:9443/index.php
-HTTP/1.1 200 OK
-Date: Sun, 28 May 2017 10:24:41 GMT
-Content-Type: text/html; charset=UTF-8
-Connection: keep-alive
-Server: secthemall
-```
+`$ curl -I http://localhost:9443/index.php`<br>
+HTTP/1.1 200 OK<br>
+Date: Sun, 28 May 2017 10:24:41 GMT<br>
+Content-Type: text/html; charset=UTF-8<br>
+Connection: keep-alive<br>
+**Server: secthemall**<br>
