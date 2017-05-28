@@ -1,6 +1,16 @@
-# SECTHEMALL PHP Security
-A **PHP** SDK that makes you able to connect your web application, API or website to your SECTHEMALL account.
 
+<p align="center"><img width="300" src="https://secthemall.com/img/sta_logo_white.png"><br>
+
+<img src="https://img.shields.io/badge/style-GPL-blue.svg?style=flat&label=license">
+<img src="https://img.shields.io/badge/style-5.6-green.svg?style=flat&label=PHP">
+<img src="https://img.shields.io/badge/style-7.0-green.svg?style=flat&label=PHP">
+<img src="https://img.shields.io/badge/style-7.1-green.svg?style=flat&label=PHP">
+</p>
+
+## About PHP-Security
+SECTHEMALL PHP-Security is a web application framework that protects your application. It is centrally orchestrated and it distributes your black and white list to all your PHP applications.
+
+## Why SECTHEMALL PHP-Security
 > The purpose of this "SECTHEMALL PHP client" is to make your PHP websites and applications more secure, centralize security events and blacklists. It's 100% CloudFlare compatible and makes you able to take control of all events of your application (like login ok, login failed, brute-force attempts, session hijacking, unexpected behaviours, etc...)
 > 
 > Imagine that your company has **10 different PHP applications**. Once install SECTHEMALL PHP Security you see that an IP address **try to guess the admin password** on one of them. With this SDK you can **block that IP address on all your applications from your SECTHEMALL dashboard**, sending a customizable courtesy page to the user that says: "sorry, you were blocked. For more information, please contact the website administrator." 
