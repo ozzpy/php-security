@@ -78,3 +78,7 @@ Date: Sun, 28 May 2017 10:24:41 GMT<br>
 Content-Type: text/html; charset=UTF-8<br>
 Connection: keep-alive<br>
 **Server: secthemall**<br>
+
+## Blocking access from non-CloudFlare IP addresses
+In order to block access from all non-CloudFlare IP addresses, edit the `config.php` file at `secthemall-webapp-client/inc/config.php` and set the `noncf_block` variable to `true`.
+![cfblock](https://secthemall.com/webapp/images/php-sec-cloudflare.png)
