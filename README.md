@@ -31,6 +31,25 @@ First of all, after you completed the installation, you need to include the core
     // ... your php code ...
 ?>
 ```
+Now you can send nay kind of log to your SECTHEMALL account! for example, you can send a log for each successful login:
+```php
+<?php
+    require_once('/var/www/html/secthemall-webapp-client/functions.php');
+
+    if($auth == 'ok') {
+        secthemall_sendlog(array(
+            'msg' => 'Login Successful',
+            'username' => $_POST['username'],
+            'severity' => 'low',
+        ));
+    }
+?>
+```
+The `secthemall_sendlog()` function automatically collect all useful information about the user (like real IP address, all request headers, the used browser and operating system, etc...). On you dashboard, you will see this log like this:
+### Dashboard logs list
+![secex1](https://secthemall.com/webapp/images/php-sec-ex1.png)
+### Log details
+![secex2](https://secthemall.com/webapp/images/php-sec-ex2.png)
 
 ## Start blacklist update client
 
