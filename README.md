@@ -9,9 +9,16 @@ A **PHP** SDK that makes you able to connect your web application, API or websit
 >
 > You can use it for both internet or intranet applications (on a **docker container** or not). It's 100% CloudFlare compatible and this means that you'll see the **real user's IP address**, or you can block all connections from "Non-CloudFlare" IP addresses (this grant you that all traffic will come just from cloudflare servers).
 
-![](https://secthemall.com/webapp/images/php-sec.gif?t=4)
+<br><br>
+
+#### A little preview
+![SECTHEMALL Dashboard](https://secthemall.com/webapp/images/php-sec.gif?t=4)
+
+<br><br>
 
 ## Table of contents
+
+<br>
 
 ## Requirements
 - PHP
@@ -19,11 +26,15 @@ A **PHP** SDK that makes you able to connect your web application, API or websit
 - cURL
 - wget
 
+<br>
+
 ## Installation
 ```bash
 bash <(curl -sSL 'https://secthemall.com/webapp/setup.txt')
 ```
 The script will ask you to insert your SECTHEMALL username and password (if you don't have one, visit https://secthemall.com/signup/) and to choose an alias name for the node that you are configuring. After this, it downloads all required PHP files and tells you how to include the core functions to your application.
+
+<br>
 
 ## Quick start
 First of all, after you completed the installation, you need to include the core functions script at the top of your index page or of all your PHP application pages:
@@ -49,13 +60,17 @@ Now you can send any kind of log to your SECTHEMALL account! for example, you ca
 ?>
 ```
 The `secthemall_sendlog()` function automatically collect all useful information about the user (like real IP address, all request headers, the used browser and operating system, etc...). On you dashboard, you will see this log like this:
+
 ### Dashboard logs list
 ![secex1](https://secthemall.com/webapp/images/php-sec-ex1.png)
+
 ### Log details
 <table><tr><td>
 <img src="https://secthemall.com/webapp/images/php-sec-ex2.png" width="400" /></td><td>
 For each log you send, SECTHEMALL caught all useful information about the request and the user (for example the used browser, operating system, platform, etc...). If your website uses CloudFlare, it automatically shows you the real user's IP address.
 </td></tr></table>
+
+<br>
 
 ## Start blacklist update client
 In order to receive all blacklist updates, you need to run the updatebl.php script: `php updatebl.php --start` or if you want to run it in background `php updatebl.php > /dev/null &`. Following an example output:
@@ -88,12 +103,17 @@ The updatebl.php script will synchronize the follwing black and white lists:
 - Global whitelist
 - Country blacklist
 
+<br>
+
 ## Screenshot
 ### Analyze your web applications logs
 ![sec1](https://secthemall.com/webapp/images/php-sec-1.png)
+<br>
 
 ### Courtesy page for blocked users
 ![sec2](https://secthemall.com/webapp/images/php-sec-2.png)
+
+<br>
 
 ## Hide versions and software type
 ### Without SECTHEMALL
@@ -112,6 +132,8 @@ Date: Sun, 28 May 2017 10:24:41 GMT<br>
 Content-Type: text/html; charset=UTF-8<br>
 Connection: keep-alive<br>
 **Server: secthemall**<br>
+
+<br>
 
 ## Blocking access from non-CloudFlare IP addresses
 In order to block access from all non-CloudFlare IP addresses, edit the `config.php` file at `secthemall-webapp-client/inc/config.php` and set the `noncf_block` variable to `true`.
