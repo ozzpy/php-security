@@ -12,8 +12,9 @@ A **PHP** SDK that makes you able to connect your web application, API or websit
 <br><br>
 
 #### A little preview
-![SECTHEMALL Dashboard](https://secthemall.com/webapp/images/php-sec.gif?t=4)
+> ![sec1](https://secthemall.com/webapp/images/php-sec-1.png)
 
+> ![sec2](https://secthemall.com/webapp/images/php-sec-2.png)
 <br><br>
 
 ## Table of contents
@@ -105,12 +106,7 @@ The updatebl.php script will synchronize the follwing black and white lists:
 <br>
 
 ## Screenshot
-### Analyze your web applications logs
-![sec1](https://secthemall.com/webapp/images/php-sec-1.png)
-<br>
-
-### Courtesy page for blocked users
-![sec2](https://secthemall.com/webapp/images/php-sec-2.png)
+![SECTHEMALL Dashboard](https://secthemall.com/webapp/images/php-sec.gif?t=4)
 
 <br>
 
