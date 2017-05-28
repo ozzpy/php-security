@@ -122,7 +122,7 @@ The updatebl.php script will synchronize the follwing black and white lists:
 
 <br>
 
-## Screenshot
+## Blacklist IP from dashboard
 ![SECTHEMALL Dashboard](https://secthemall.com/webapp/images/php-sec.gif?t=4)
 
 <br>
@@ -149,4 +149,3 @@ Connection: keep-alive<br>
 
 ## Blocking access from non-CloudFlare IP addresses
 In order to block access from all non-CloudFlare IP addresses, edit the `config.php` file at `secthemall-webapp-client/inc/config.php` and set the `noncf_block` variable to `true`.
-![cfblock](https://secthemall.com/webapp/images/php-sec-cloudflare.png)
