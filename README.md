@@ -9,6 +9,8 @@ A **PHP** SDK that makes you able to connect your web application, API or websit
 >
 > You can use it for both internet or intranet applications (on a **docker container** or not). It's 100% CloudFlare compatible and this means that you'll see the **real user's IP address**, or you can block all connections from "Non-CloudFlare" IP addresses (this grant you that all traffic will come just from cloudflare servers).
 
+![](https://secthemall.com/webapp/images/php-gif.gif)
+
 ## Table of contents
 
 ## Requirements
