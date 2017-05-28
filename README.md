@@ -15,7 +15,9 @@ A **PHP** SDK that makes you able to connect your web application, API or websit
 > ![sec1](https://secthemall.com/webapp/images/php-sec-1.png)
 
 > ![sec2](https://secthemall.com/webapp/images/php-sec-2.png)
-<br><br>
+
+<br>
+<br>
 
 ## Table of contents
 
