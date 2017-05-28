@@ -50,7 +50,10 @@ The `secthemall_sendlog()` function automatically collect all useful information
 ### Dashboard logs list
 ![secex1](https://secthemall.com/webapp/images/php-sec-ex1.png)
 ### Log details
-![secex2](https://secthemall.com/webapp/images/php-sec-ex2.png)
+<table><tr><td>
+<img src="https://secthemall.com/webapp/images/php-sec-ex2.png" width="400" /></td><td>
+For each log you send, SECTHEMALL caught all useful information about the request and the user (for example the used browser, operating system, platform, etc...). If your website uses CloudFlare, it automatically shows you the real user's IP address.
+</td></tr></table>
 
 ## Start blacklist update client
 In order to receive all blacklist updates, you need to run the updatebl.php script: `php updatebl.php --start` or if you want to run it in background `php updatebl.php > /dev/null &`. Following an example output:
