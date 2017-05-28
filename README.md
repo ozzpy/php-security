@@ -23,7 +23,7 @@ SECTHEMALL PHP-Security is a web application framework that attempts to take the
 
 <br>
 
-### How does it work?
+## How does it work?
 ![](https://secthemall.com/webapp/images/php-howitworks.gif?v=3)
 
 ### A little preview
