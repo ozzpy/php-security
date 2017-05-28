@@ -23,6 +23,14 @@ bash <(curl -sSL 'https://secthemall.com/webapp/setup.txt')
 ```
 
 ## Quick start
+First of all, after you completed the installation, you need to include the core functions script at the top of your index page or of all your PHP application pages:
+```php
+<?php
+    require_once('/var/www/html/secthemall-webapp-client/functions.php');
+
+    // ... your php code ...
+?>
+```
 
 ## Start blacklist update client
 
