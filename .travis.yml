@@ -1,0 +1,24 @@
+language: php
+php:
+  - '5.4'
+  - '5.5'
+  - '5.6'
+  - '7.0'
+  - '7.1'
+script:
+  - mkdir -p ${PWD}/secthemall-webapp-client
+	- cd ${PWD}/secthemall-webapp-client
+	- mkdir -p ${PWD}/inc
+  - touch ${PWD}/inc/config.php
+  - wget -O "${PWD}/inc/ip_in_range.php" "https://raw.githubusercontent.com/cloudflare/Cloudflare-Tools/master/cloudflare/ip_in_range.php"
+	- wget -O "${PWD}/functions.php" "https://secthemall.com/webapp/functions.txt"
+	- wget -O "${PWD}/updatebl.php" "https://secthemall.com/webapp/updatebl.txt"
+	- wget -O "${PWD}/inc/courtesypage.txt" "https://secthemall.com/webapp/courtesypage.txt"
+	- wget -O "${PWD}/inc/courtesypage_plain.txt" "https://secthemall.com/webapp/courtesypage_plain.txt"
+	- wget -O "${PWD}/inc/cf-ipv4.txt" "https://www.cloudflare.com/ips-v4"
+	- wget -O "${PWD}/inc/cf-ipv6.txt" "https://www.cloudflare.com/ips-v6"
+	- chmod +x ${PWD}/updatebl.php
+  - echo "check syntax:"
+  - php -l ${PWD}/inc/ip_in_range.php
+  - php -l ${PWD}/functions.php
+  - php -l ${PWD}/updatebl.php
