@@ -75,6 +75,13 @@ php updatebl.php > /dev/null &
 13:23:45> [INFO ](keep-alive) Sending keep-alive to secthemall...
 13:23:46> [INFO ](sleep) I go to sleep for a while.
 ```
+The script can be stopped using `--stop` paramenter. It save it's PID inside a PHP script (`secthemall-webapp-client/inc/pid.php`) to prevent from access it by browsing it. 
+
+The updatebl.php script will synchronize the follwing black and white lists:
+- Web Application blacklist
+- Global blacklist
+- Global whitelist
+- Country blacklist
 
 ## Screenshot
 ### Analyze your web applications logs
