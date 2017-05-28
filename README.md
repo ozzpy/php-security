@@ -53,6 +53,28 @@ The `secthemall_sendlog()` function automatically collect all useful information
 ![secex2](https://secthemall.com/webapp/images/php-sec-ex2.png)
 
 ## Start blacklist update client
+In order to receive all blacklist updates, you need to run the updatebl.php script: `php updatebl.php --start` or if you want to run it in background `php updatebl.php > /dev/null &`. Following an example output:
+
+```bash
+root@mywebapp:/var/www/html# cd secthemall-webapp-client/
+root@mywebapp:/var/www/html/secthemall-webapp-client# php updatebl.php --start
+
+(::) SECTHEMALL
+
+If you want to run this client in background:
+php updatebl.php > /dev/null &
+
+13:23:43> [INFO ](check) Check blacklist updates...
+13:23:44> [INFO ](firewall) Last iptables id from secthemall is: 
+13:23:44> [INFO ](firewall) Blacklist is up to date.
+13:23:44> [INFO ](country) Last country id from secthemall is: 1495713567000
+13:23:44> [INFO ](country) Blacklist is up to date.
+13:23:45> [INFO ](webapp) Last id from secthemall is: 0
+13:23:45> [WARN ](webapp) Blacklist seems changed, downloading new version...
+13:23:45> [OK   ](webapp) Blacklist synchronized.
+13:23:45> [INFO ](keep-alive) Sending keep-alive to secthemall...
+13:23:46> [INFO ](sleep) I go to sleep for a while.
+```
 
 ## Screenshot
 ### Analyze your web applications logs
