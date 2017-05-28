@@ -10,6 +10,8 @@
 ## About PHP-Security
 SECTHEMALL PHP-Security is a web application framework that attempts to take the pain out of protecting your PHP applications. It is centrally orchestrated and it distributes your black and white list to all your PHP applications. Super easy installation, just type: `bash <(curl -sSL 'https://secthemall.com/webapp/setup.txt')`
 
+<br>
+
 ## Why SECTHEMALL PHP-Security
 > The purpose of this "SECTHEMALL PHP client" is to make your PHP websites and applications more secure, centralize security events and blacklists. It's 100% CloudFlare compatible and makes you able to take control of all events of your application (like login ok, login failed, brute-force attempts, session hijacking, unexpected behaviours, etc...)
 > 
