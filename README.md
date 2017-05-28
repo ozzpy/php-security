@@ -6,3 +6,18 @@ A **PHP** SDK that makes you able to connect your web application, API or websit
 > Imagine that you have 10 different PHP applications on your company. Once install SECTHEMALL PHP Security you see that an IP address try to guess the admin password on one of them. With this SDK you can block that IP address on all your applications from your SECTHEMALL dashboard, sending a customizable courtesy page to the user that says: "sorry, you were blocked. For more information, please contact the website administrator." 
 >
 > Always from the SECTHEMALL dashboard, you can define a rule that automatically blocks an IP address that tries to guess the admin password for more than 5 times, and distributes this block to all others your applications.
+
+## Table of contents
+
+## Requirements
+
+## Installation
+
+## 
+
+## Screenshot
+### Analyze your web applications logs
+![sec1](https://secthemall.com/webapp/images/php-sec-1.png)
+
+### Courtesy page for blocked users
+![sec2](https://secthemall.com/webapp/images/php-sec-2.png)
