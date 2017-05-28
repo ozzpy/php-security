@@ -21,6 +21,7 @@ A **PHP** SDK that makes you able to connect your web application, API or websit
 ```bash
 bash <(curl -sSL 'https://secthemall.com/webapp/setup.txt')
 ```
+The script will ask you to insert your SECTHEMALL username and password (if you don't have one, visit https://secthemall.com/signup/) and to choose an alias name for the node that you are configuring. After this, it downloads all required PHP files and tells you how to include the core functions to your application.
 
 ## Quick start
 First of all, after you completed the installation, you need to include the core functions script at the top of your index page or of all your PHP application pages:
@@ -31,7 +32,7 @@ First of all, after you completed the installation, you need to include the core
     // ... your php code ...
 ?>
 ```
-Now you can send nay kind of log to your SECTHEMALL account! for example, you can send a log for each successful login:
+Now you can send any kind of log to your SECTHEMALL account! for example, you can send a log for each successful login:
 ```php
 <?php
     require_once('/var/www/html/secthemall-webapp-client/functions.php');
