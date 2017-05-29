@@ -140,24 +140,24 @@ The updatebl.php script will synchronize the follwing black and white lists:
 
 <br>
 
-# Features
+## Features
 
-## Blacklist IP from dashboard
+### Blacklist IP from dashboard
 ![SECTHEMALL Dashboard](https://secthemall.com/webapp/images/php-sec.gif?t=4)
 
 <br>
 
-## Blacklist a whole country
+### Blacklist a whole country
 
 <br>
 
-## Blocking access from non-CloudFlare IP addresses
+### Blocking access from non-CloudFlare IP addresses
 In order to block access from all non-CloudFlare IP addresses, edit the `config.php` file at `secthemall-webapp-client/inc/config.php` and set the `noncf_block` variable to `true`.
 
 <br>
 
-## Hide versions and software type
-### Without SECTHEMALL
+### Hide versions and software type
+#### Without SECTHEMALL
 `$ curl -I http://localhost:9443/index.php`<br>
 HTTP/1.1 200 OK<br>
 **Server: nginx/1.10.0 (Ubuntu)**<br>
@@ -166,7 +166,7 @@ Content-Type: text/html; charset=UTF-8<br>
 Connection: keep-alive<br>
 **X-Powered-By: PHP/7.0.15-0ubuntu0.16.04.4**<br>
 
-### With SECTHEMALL
+#### With SECTHEMALL
 `$ curl -I http://localhost:9443/index.php`<br>
 HTTP/1.1 200 OK<br>
 Date: Sun, 28 May 2017 10:24:41 GMT<br>
@@ -176,4 +176,4 @@ Connection: keep-alive<br>
 
 <br>
 
-## Prevent Session Hijacking
+### Prevent Session Hijacking
