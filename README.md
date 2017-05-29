@@ -9,12 +9,12 @@
 
 <br >
 
-## About PHP-Security
+# About PHP-Security
 SECTHEMALL PHP-Security is a web application framework that attempts to take the pain out of protecting your PHP applications. It is centrally orchestrated and it distributes your black and white list to all your PHP applications. Super easy installation, just type: `bash <(curl -sSL 'https://secthemall.com/webapp/setup.txt')`
 
 <br>
 
-## Why SECTHEMALL PHP-Security
+# Why SECTHEMALL PHP-Security
 > The purpose of **SECTHEMALL PHP-Security** is to centralize your application logs, and makes you able to take control of what happen on your applications, not only in terms of security (like: successful login, login failed, brute-force attempts, session hijacking, unexpected behaviours, etc...) but also for functional purposes (for example: user John Doe [Country: Italy, IP: 10.0.0.1] purchased Pro package [Browser: Safari, OS: Mac OS X, Platform: Tablet])
 > 
 > Imagine that your company has **10 different PHP applications**. Once install SECTHEMALL PHP-Security you see that an IP address **try to guess the admin password** on one of them. You can login to your dashboard and **block that IP address on all your applications**, sending a customizable courtesy page to the user that says: "sorry, you were blocked. For more information, please contact the website administrator." 
@@ -25,7 +25,7 @@ SECTHEMALL PHP-Security is a web application framework that attempts to take the
 
 <br>
 
-## Table of contents
+# Table of contents
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Quick start](#quick-start)
@@ -41,10 +41,10 @@ SECTHEMALL PHP-Security is a web application framework that attempts to take the
   
 <br>
 
-## How does it work?
+# How does it work?
 ![](https://secthemall.com/webapp/images/php-howitworks.gif?v=3)
 
-### A little preview
+## A little preview
 > ![sec1](https://secthemall.com/webapp/images/php-sec-1.png)
 
 > ![sec2](https://secthemall.com/webapp/images/php-sec-2.png)
@@ -52,7 +52,7 @@ SECTHEMALL PHP-Security is a web application framework that attempts to take the
 <br>
 <br>
 
-## Requirements
+# Requirements
 - PHP
 - OpenSSL
 - cURL
@@ -60,7 +60,7 @@ SECTHEMALL PHP-Security is a web application framework that attempts to take the
 
 <br>
 
-## Installation
+# Installation
 ```bash
 bash <(curl -sSL 'https://secthemall.com/webapp/setup.txt')
 ```
@@ -68,7 +68,7 @@ The script will ask you to insert your SECTHEMALL username and password (if you 
 
 <br>
 
-## Quick start
+# Quick start
 First of all, after you completed the installation, you need to include the core functions script at the top of your index page or of all your PHP application pages:
 ```php
 <?php
@@ -111,7 +111,7 @@ On your dashboard, you'll see all log you send with a huge amount of additional 
 
 <br><br>
 
-## The PHP client
+# The PHP client
 In order to receive all blacklist updates, you need to run the updatebl.php script: `php updatebl.php --start` or if you want to run it in background `php updatebl.php > /dev/null &`. Following an example output:
 
 ```bash
@@ -144,29 +144,29 @@ The updatebl.php script will synchronize the follwing black and white lists:
 
 <br>
 
-## Features
+# Features
 
-### Blacklist IP from dashboard
+## Blacklist IP from dashboard
 ![SECTHEMALL Dashboard](https://secthemall.com/webapp/images/php-sec.gif?t=4)
 
 <br>
 
-### Blacklist a whole country
+## Blacklist a whole country
 
 <br>
 
-### Block access from non-CloudFlare IPs
+## Block access from non-CloudFlare IPs
 In order to block access from all non-CloudFlare IP addresses, edit the `config.php` file at `secthemall-webapp-client/inc/config.php` and set the `noncf_block` variable to `true`.
 
 <br>
 
-### Hide versions and software type
-#### Without SECTHEMALL
+## Hide versions and software type
+### Without SECTHEMALL
 > `$ curl -I http://localhost:9443/index.php`<br>HTTP/1.1 200 OK<br>**Server: nginx/1.10.0 (Ubuntu)**<br>Date: Sun, 28 May 2017 10:21:23 GMT<br>Content-Type: text/html; charset=UTF-8<br>Connection: keep-alive<br>**X-Powered-By: PHP/7.0.15-0ubuntu0.16.04.4**<br>
 
-#### With SECTHEMALL
+### With SECTHEMALL
 > `$ curl -I http://localhost:9443/index.php`<br>HTTP/1.1 200 OK<br>Date: Sun, 28 May 2017 10:24:41 GMT<br>Content-Type: text/html; charset=UTF-8<br>Connection: keep-alive<br>**Server: secthemall**<br>
 
 <br>
 
-### Prevent Session Hijacking
+## Prevent Session Hijacking
