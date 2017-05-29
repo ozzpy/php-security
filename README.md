@@ -19,7 +19,7 @@ SECTHEMALL PHP-Security is a web application framework that attempts to take the
 >
 > Always from the SECTHEMALL dashboard, you can **define a rule that automatically blocks an IP address** that tries to guess the admin password for more than 5 times, and distributes this block to all others applications.
 >
-> You can use it for both internet or intranet applications (on a **docker container** or not). It's 100% CloudFlare compatible and this means that you'll see the **real user's IP address**, or you can block all connections from "Non-CloudFlare" IP addresses (this grant you that all traffic will come just from cloudflare servers).
+> You can use it for both internet or intranet applications (on a **docker container** or not). It's 100% CloudFlare compatible: this means that you'll see the **real user's IP address**, or you can block all connections from "Non-CloudFlare" IP addresses (this grant you that all traffic will come just from cloudflare servers).
 
 <br>
 
