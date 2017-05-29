@@ -140,6 +140,8 @@ The updatebl.php script will synchronize the follwing black and white lists:
 
 <br>
 
+# Features
+
 ## Blacklist IP from dashboard
 ![SECTHEMALL Dashboard](https://secthemall.com/webapp/images/php-sec.gif?t=4)
 
