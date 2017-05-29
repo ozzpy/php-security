@@ -72,6 +72,14 @@ The script will ask you to insert your SECTHEMALL username and password (if you 
 
 <br>
 
+# Upgrade
+```bash
+cd secthemall-webapp-client/
+bash <(curl -sSL 'https://secthemall.com/webapp/upgrade.txt')
+```
+
+<br>
+
 # Quick start
 First of all, after you completed the installation, you need to include the core functions script at the top of your index page or of all your PHP application pages:
 ```php
