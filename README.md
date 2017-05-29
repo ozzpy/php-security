@@ -189,11 +189,26 @@ The updatebl.php script will synchronize the follwing black and white lists:
 <br>
 
 ## Blacklist a whole country
+From the SECTHEMALL dashboard, you can block traffic coming from a specific country, on all your applications, with just a click! Log in to your dashboard and visit the <a href="https://secthemall.com/countries/">countries page</a>. The `updatebl.php` client will sync the country-blacklist on all configured applications.
 
 <br>
 
 ## Block access from non-CloudFlare IPs
-In order to block access from all non-CloudFlare IP addresses, edit the `config.php` file at `secthemall-webapp-client/inc/config.php` and set the `noncf_block` variable to `true`.
+If you are a CloudFlare user, probably you want to block all non-CloudFlare IP addresses to directly access your application, this to prevent DDoS attacks, WAF evasion or simply to better balance the load. In order to block access from all non-CloudFlare IP addresses, edit the `config.php` file at `secthemall-webapp-client/inc/config.php` and set the `noncf_block` variable to `true`. The `config.php` file will be created once you complete the authentication process:
+```php
+<?php
+	// configuration:
+	$secthemall = array(
+		'username' => 'themiddle@secthemall.com',
+		'apikey' => '...',
+		'passphrase' => '...',
+		'timezone' => 'Europe/Rome',
+		'alias' => 'mywebapp-1',
+		'intercept_auth' => true,
+		'noncf_block' => false // <-- change this to true to block non-CloudFlare IPs
+	);
+?>
+```
 
 <br>
 
@@ -212,3 +227,22 @@ PHP-Security hides, by default, the `Server` banner and the `X-Powered-By` heade
 <br>
 
 ## Prevent Session Hijacking
+*from WikiPedia*
+> In computer science, session hijacking, sometimes also known as cookie hijacking, is the exploitation of a valid computer session (sometimes also called a session key) to gain unauthorized access to information or services in a computer system. In particular, it is used to refer to the theft of a magic cookie used to authenticate a user to a remote server. It has particular relevance to web developers, as the HTTP cookies used to maintain a session on many web sites can be easily stolen by an attacker using an intermediary computer or with access to the saved cookies on the victim's computer (HTTP cookie theft).
+
+PHP-Security will automatically save the real user's IP address and user-agent in a session variable, and it will check it on every request. If a session change IP or user-agent, PHP-Security will destroy the session and send an alert log to SECTHEMALL. In order to enable this function, you need to set the `session_guard` variable to `true` on `config.php` file:
+```php
+<?php
+  // configuration:
+  $secthemall = array(
+    'username' => 'themiddle@secthemall.com',
+    'apikey' => '...',
+    'passphrase' => '...',
+    'timezone' => 'Europe/Rome',
+    'alias' => 'mywebapp-1',
+    'intercept_auth' => true,
+    'noncf_block' => false,
+    'session_guard' => false, // <-- set it to true
+    );
+?>
+```
