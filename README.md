@@ -87,7 +87,7 @@ Now you can send any kind of log to your SECTHEMALL account! for example, you ca
     }
 ?>
 ```
-The `secthemall_sendlog()` function automatically collect all useful information about the user (like real IP address, all request headers, the used browser and operating system, etc...).
+The `secthemall_sendlog()` function automatically collect all useful information about the user (like real IP address, all request headers, the used browser and operating system, etc...). The only parameter is an Array that could contains the following variables:
 
 <table>
 <tr><td>msg</td><td>Could contains a description of the event. For example, `User password has been changed`</td></tr>
