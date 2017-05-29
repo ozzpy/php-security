@@ -7,6 +7,8 @@
 <a href="https://twitter.com/secthemall"><img src="https://img.shields.io/twitter/follow/secthemall.svg?style=social&label=Follow&maxAge=2592000"></a>
 </p>
 
+<br >
+
 ## About PHP-Security
 SECTHEMALL PHP-Security is a web application framework that attempts to take the pain out of protecting your PHP applications. It is centrally orchestrated and it distributes your black and white list to all your PHP applications. Super easy installation, just type: `bash <(curl -sSL 'https://secthemall.com/webapp/setup.txt')`
 
@@ -160,21 +162,10 @@ In order to block access from all non-CloudFlare IP addresses, edit the `config.
 
 ### Hide versions and software type
 #### Without SECTHEMALL
-`$ curl -I http://localhost:9443/index.php`<br>
-HTTP/1.1 200 OK<br>
-**Server: nginx/1.10.0 (Ubuntu)**<br>
-Date: Sun, 28 May 2017 10:21:23 GMT<br>
-Content-Type: text/html; charset=UTF-8<br>
-Connection: keep-alive<br>
-**X-Powered-By: PHP/7.0.15-0ubuntu0.16.04.4**<br>
+> `$ curl -I http://localhost:9443/index.php`<br>HTTP/1.1 200 OK<br>**Server: nginx/1.10.0 (Ubuntu)**<br>Date: Sun, 28 May 2017 10:21:23 GMT<br>Content-Type: text/html; charset=UTF-8<br>Connection: keep-alive<br>**X-Powered-By: PHP/7.0.15-0ubuntu0.16.04.4**<br>
 
 #### With SECTHEMALL
-`$ curl -I http://localhost:9443/index.php`<br>
-HTTP/1.1 200 OK<br>
-Date: Sun, 28 May 2017 10:24:41 GMT<br>
-Content-Type: text/html; charset=UTF-8<br>
-Connection: keep-alive<br>
-**Server: secthemall**<br>
+> `$ curl -I http://localhost:9443/index.php`<br>HTTP/1.1 200 OK<br>Date: Sun, 28 May 2017 10:24:41 GMT<br>Content-Type: text/html; charset=UTF-8<br>Connection: keep-alive<br>**Server: secthemall**<br>
 
 <br>
 
