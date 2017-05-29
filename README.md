@@ -173,6 +173,11 @@ In order to block access from all non-CloudFlare IP addresses, edit the `config.
 <br>
 
 ## Hide versions and software type
+*from http://php.net/manual/en/security.hiding.php*
+> In general, security by obscurity is one of the weakest forms of security. But in some cases, every little bit of extra security is desirable. A few simple techniques can help to hide PHP, possibly slowing down an attacker who is attempting to discover weaknesses in your system.
+
+PHP-Security hides, by default, the `Server` banner and the `X-Powered-By` header that, sometimes, it includes critical information about software used and versioning:
+
 ### Without SECTHEMALL
 > `$ curl -I http://localhost:9443/index.php`<br>HTTP/1.1 200 OK<br>**Server: nginx/1.10.0 (Ubuntu)**<br>Date: Sun, 28 May 2017 10:21:23 GMT<br>Content-Type: text/html; charset=UTF-8<br>Connection: keep-alive<br>**X-Powered-By: PHP/7.0.15-0ubuntu0.16.04.4**<br>
 
