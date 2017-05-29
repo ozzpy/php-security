@@ -107,7 +107,7 @@ On your dashboard, you'll see all log you send with a huge amount of additional 
 
 <br><br>
 
-## Start blacklist update client
+## The PHP client
 In order to receive all blacklist updates, you need to run the updatebl.php script: `php updatebl.php --start` or if you want to run it in background `php updatebl.php > /dev/null &`. Following an example output:
 
 ```bash
@@ -151,7 +151,7 @@ The updatebl.php script will synchronize the follwing black and white lists:
 
 <br>
 
-### Blocking access from non-CloudFlare IP addresses
+### Block access from non-CloudFlare IPs
 In order to block access from all non-CloudFlare IP addresses, edit the `config.php` file at `secthemall-webapp-client/inc/config.php` and set the `noncf_block` variable to `true`.
 
 <br>
