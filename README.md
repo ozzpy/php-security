@@ -123,8 +123,8 @@ You can send a log for **any kind of event** inside your web application, for ex
 ```php
 secthemall_sendlog(array(
   'msg' => 'my e-commerce: New user registered',
-   'username' => $_POST['username'],
-   'severity' => 'low',
+  'username' => $_POST['username'],
+  'severity' => 'low',
 ));
 ```
 
@@ -132,16 +132,17 @@ secthemall_sendlog(array(
 ```php
 secthemall_sendlog(array(
   'msg' => 'my application: User changed his password',
-   'username' => $_POST['username'],
-   'severity' => 'medium',
+  'username' => $_POST['username'], // John
+  'severity' => 'medium',
 ));
 ```
 
 *A user try to brute-force an access token on your API?*
 ```php
+// unknown user
 secthemall_sendlog(array(
   'msg' => 'my API: wrong access-token',
-   'severity' => 'high',
+  'severity' => 'high',
 ));
 ```
 
