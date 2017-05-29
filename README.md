@@ -23,6 +23,22 @@ SECTHEMALL PHP-Security is a web application framework that attempts to take the
 
 <br>
 
+## Table of contents
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Quick start](#quick-start)
+- [The PHP client](#the-php-client)
+- [Features](#features)
+  - [Blacklist IP from dashboard](#blacklist-ip-from-dashboard)
+  - [Blacklist a whole country](#blacklist-a-whole-country)
+  - [Block access from non-CloudFlare IPs](#block-access-from-non-cloudflare-ips)
+  - [Hide versions and software type](#hide-versions-and-software-type)
+    - [Without SECTHEMALL](#without-secthemall)
+    - [With SECTHEMALL](#with-secthemall)
+  - [Prevent Session Hijacking](#prevent-session-hijacking)
+  
+<br>
+
 ## How does it work?
 ![](https://secthemall.com/webapp/images/php-howitworks.gif?v=3)
 
@@ -32,20 +48,6 @@ SECTHEMALL PHP-Security is a web application framework that attempts to take the
 > ![sec2](https://secthemall.com/webapp/images/php-sec-2.png)
 
 <br>
-<br>
-
-## Table of contents
-- Requirements
-- Installation
-- Quick start
-- The PHP client
-- Features
-  - Blacklist IP from dashboard
-  - Blacklist a whole country
-  - Block access from non-CloudFlare IPs
-  - Hide versions and software type
-  - Prevent Session Hijacking
-
 <br>
 
 ## Requirements
