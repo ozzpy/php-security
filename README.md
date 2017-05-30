@@ -70,6 +70,8 @@ bash <(curl -sSL 'https://secthemall.com/webapp/setup.txt')
 ```
 The script will ask you to insert your SECTHEMALL username and password (if you don't have one, visit https://secthemall.com/signup/) and to choose an alias name for the node that you are configuring. After this, it downloads all required PHP files and tells you how to include the core functions to your application.
 
+[![asciicast](https://asciinema.org/a/4mpww6affml1szui5soays51y.png?t=2)](https://asciinema.org/a/4mpww6affml1szui5soays51y)
+
 <br>
 
 # Upgrade
