@@ -110,7 +110,7 @@ The `secthemall_sendlog()` function automatically collect all useful information
 <table>
 <tr><td><b>parameter</b></td><td><b>description</b></td></tr>
 <tr><td>msg</td><td>Could contains a description of the event. For example, <code>User password has been changed</code></td></tr>
-<tr><td>username</td><td>If set, SECTHEMALL index the username for searching purpose. If not, it'll be set to `unknown`</td></tr>
+<tr><td>username</td><td>If set, SECTHEMALL index the username for searching purpose. If not, it'll be set to <code>unknown</code></td></tr>
 <tr><td>severity</td><td>could be one of the following: <code>low, medium, high, critical</code></td></tr>
 </table>
 
@@ -147,6 +147,8 @@ secthemall_sendlog(array(
   'severity' => 'high',
 ));
 ```
+
+[![asciicast](https://asciinema.org/a/6q014g6nuqpfcrlmxz6rcblrl.png)](https://asciinema.org/a/6q014g6nuqpfcrlmxz6rcblrl)
 
 <br>
 
@@ -186,6 +188,8 @@ The updatebl.php script will synchronize the follwing black and white lists:
 # Features
 
 ## Blacklist IP from dashboard
+When blocking an IP address from your dashboard, SECTHEMALL will save it in your global-blacklist. All your web applications will sync with your global-blacklist thanks to the `uploadbl.php` script. The same behavior happens when you add an IP in your whitelist, or when you block a whole country.
+
 ![SECTHEMALL Dashboard](https://secthemall.com/webapp/images/php-sec.gif?t=4)
 
 <br>
