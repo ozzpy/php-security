@@ -232,7 +232,7 @@ PHP-Security hides, by default, the `Server` banner and the `X-Powered-By` heade
 > `$ curl -I http://localhost:9443/index.php`<br>HTTP/1.1 200 OK<br>Date: Sun, 28 May 2017 10:24:41 GMT<br>Content-Type: text/html; charset=UTF-8<br>Connection: keep-alive<br>**Server: secthemall**<br>
 
 ### Additional information
-In order to tune better your PHP installation, please consider changing the following parameters on your `php.ini`
+In order to tune better your PHP installation, please consider changing the following parameters on your `php.ini`. You can find its location on your file system by using the command `php --ini`.
 
 - **session.name** specifies the name of the session which is used as cookie name. It should only contain alphanumeric characters. Defaults to PHPSESSID.
 - **session.cookie_httponly** marks the cookie as accessible only through the HTTP protocol. This means that the cookie won't be accessible by scripting languages, such as JavaScript. This setting can effectively help to reduce identity theft through XSS attacks
