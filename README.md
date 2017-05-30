@@ -49,9 +49,9 @@ SECTHEMALL PHP-Security is a web application framework that attempts to take the
 ![](https://secthemall.com/webapp/images/php-howitworks.gif?v=3)
 
 ## A little preview
-> ![sec1](https://secthemall.com/webapp/images/php-sec-1.png)
+![sec1](https://secthemall.com/webapp/images/phpsec_github_1.png?t=2)
 
-> ![sec2](https://secthemall.com/webapp/images/php-sec-2.png)
+![sec1](https://secthemall.com/webapp/images/phpsec_github_2.png?t=2)
 
 <br>
 <br>
