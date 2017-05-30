@@ -57,10 +57,10 @@ SECTHEMALL PHP-Security is a web application framework that attempts to take the
 <br>
 
 # Requirements
-- PHP
-- OpenSSL
-- cURL
-- wget
+- **PHP** *(version: >= 5.5 or >= 7.0)*
+- **OpenSSL** *(for log encryption)*
+- **cURL** *it can work with PHP libcurl or not (using `exec()` function)*
+- **wget** *just during the setup process*
 
 <br>
 
