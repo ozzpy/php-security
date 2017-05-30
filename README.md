@@ -45,13 +45,16 @@ The main purpose of SECTHEMALL PHP-Security is to centralize your application lo
   
 <br>
 
-# How does it work?
-![](https://secthemall.com/webapp/images/php-howitworks.gif?v=3)
-
 ## A little preview
 ![sec1](https://secthemall.com/webapp/images/phpsec_github_1.png?t=2)
 
 ![sec1](https://secthemall.com/webapp/images/phpsec_github_2.png?t=2)
+
+<br >
+
+# How does it work?
+![](https://secthemall.com/webapp/images/php-howitworks.gif?v=3)
+[![Imgur](http://i.imgur.com/S3cOtZb.png)](https://youtu.be/kGfvuy_WYxM)
 
 <br>
 <br>
