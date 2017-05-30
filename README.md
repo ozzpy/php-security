@@ -26,10 +26,6 @@ The main purpose of SECTHEMALL PHP-Security is to centralize your application lo
 <br>
 
 # Table of contents
-- [About PHP-Security](#about-php-security)
-- [Why SECTHEMALL PHP-Security](#why-secthemall-php-security)
-- [How does it work?](#how-does-it-work)
-  - [A little preview](#a-little-preview)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Quick start](#quick-start)
