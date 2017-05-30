@@ -196,6 +196,8 @@ When blocking an IP address from your dashboard, SECTHEMALL will save it in your
 ## Blacklist a whole country
 From the SECTHEMALL dashboard, you can block traffic coming from a specific country, on all your applications, with just a click! Log in to your dashboard and visit the <a href="https://secthemall.com/countries/">countries page</a>. The `updatebl.php` client will sync the country-blacklist on all configured applications.
 
+![Country Block](http://i.imgur.com/YYiEYfO.png)
+
 <br>
 
 ## Block access from non-CloudFlare IPs
@@ -228,6 +230,12 @@ PHP-Security hides, by default, the `Server` banner and the `X-Powered-By` heade
 
 ### With SECTHEMALL
 > `$ curl -I http://localhost:9443/index.php`<br>HTTP/1.1 200 OK<br>Date: Sun, 28 May 2017 10:24:41 GMT<br>Content-Type: text/html; charset=UTF-8<br>Connection: keep-alive<br>**Server: secthemall**<br>
+
+### Additional information
+In order to tune better your PHP installation, please consider changing the following parameters on your `php.ini`
+
+- **session.name** specifies the name of the session which is used as cookie name. It should only contain alphanumeric characters. Defaults to PHPSESSID.
+- **session.cookie_httponly** marks the cookie as accessible only through the HTTP protocol. This means that the cookie won't be accessible by scripting languages, such as JavaScript. This setting can effectively help to reduce identity theft through XSS attacks
 
 <br>
 
