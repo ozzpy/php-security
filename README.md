@@ -26,6 +26,8 @@ The main purpose of SECTHEMALL PHP-Security is to centralize your application lo
 <br>
 
 # Table of contents
+- [How does it work?](#how-does-it-work)
+  - [See it in action](#see-it-in-action)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Quick start](#quick-start)
@@ -50,6 +52,8 @@ The main purpose of SECTHEMALL PHP-Security is to centralize your application lo
 
 # How does it work?
 ![](https://secthemall.com/webapp/images/php-howitworks.gif?v=3)
+
+## See it in action
 [![Imgur](http://i.imgur.com/S3cOtZb.png)](https://youtu.be/kGfvuy_WYxM)
 
 <br>
