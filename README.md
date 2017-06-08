@@ -17,7 +17,7 @@ SECTHEMALL PHP-Security is a web application framework that attempts to take the
 # Why SECTHEMALL PHP-Security
 The main purpose of SECTHEMALL PHP-Security is to centralize your application logs, and makes you able to take control of what happen on your applications, not only in terms of security (like login ok, login failed, brute-force attacks, session hijacking, unexpected behaviours, etc...) but also for functional purposes (for example: user John Doe [Country: Italy, IP: 10.0.0.1] purchased a Pro package [Browser: Safari, OS: Mac OS X, Platform: Tablet])
  
-> Imagine that your company has **10 different PHP applications**. Once install SECTHEMALL PHP-Security you see that an IP address **try to guess the admin password** on one of them. You can login to your dashboard and **block that IP address on all your applications**, sending a customizable courtesy page to the user that says: "sorry, you were blocked. For more information, please contact the website administrator." 
+> Imagine that your company has **10 different PHP applications**. Once install SECTHEMALL PHP-Security you see that an IP address is **trying to guess the admin password** on one of them. You can login to your dashboard and **block that IP address on all your applications**, sending a customizable courtesy page to the user that says: "sorry, you were blocked. For more information, please contact the website administrator." 
 >
 > Always from the SECTHEMALL dashboard, you can **define a rule that automatically blocks an IP address** that tries to guess the admin password for more than 5 times, and distributes this block to all others applications.
 >
