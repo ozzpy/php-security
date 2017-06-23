@@ -267,8 +267,11 @@ PHP-Security will automatically save the real user's IP address and user-agent i
 <br>
 
 # Contact Us
-> If you need help or have any questions,<br>please don't hesitate to contact us!<br>:email: *support@secthemall.com*.
+If you need help or have any questions,<br>please don't hesitate to contact us!<br>:email: *support@secthemall.com*.
 
 <br>
 
-> Or follow us on:<br>[![](https://img.shields.io/badge/WebSite-secthemall.com-blue.svg)](https://secthemall.com) [![](https://img.shields.io/badge/You-Tube-red.svg)](https://goo.gl/ElrmYs)  <a href="https://twitter.com/secthemall"><img src="https://img.shields.io/twitter/follow/secthemall.svg?style=social&label=Follow&maxAge=2592000"></a><br>
+Or follow us on:
+[![](https://img.shields.io/badge/WebSite-secthemall.com-blue.svg)](https://secthemall.com)
+[![](https://img.shields.io/badge/You-Tube-red.svg)](https://goo.gl/ElrmYs)
+<a href="https://twitter.com/secthemall"><img src="https://img.shields.io/twitter/follow/secthemall.svg?style=social&label=Follow&maxAge=2592000"></a><br>
